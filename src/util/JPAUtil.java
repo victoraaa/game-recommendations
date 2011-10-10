@@ -14,7 +14,7 @@ import javax.persistence.Persistence;
  * @author aluno
  */
 public class JPAUtil {
-    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("MyFacePU");
+    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("ExamePU");
     
     public static EntityManager getEntityManager(){
         return emf.createEntityManager();
