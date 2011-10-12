@@ -7,15 +7,23 @@ package entities;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 
 /**
  *
  * @author rodrigoruiz
  */
+@Entity
 public class Game {
+    @Id@GeneratedValue
     private int id;
     private String name;
+    @ManyToMany
     private List<Category> categories;
+    @ManyToMany
     private List<Game> similarGames;
     
     public Game() {

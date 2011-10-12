@@ -6,21 +6,27 @@ package entities;
 
 import database.Database;
 import java.util.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 
 /**
  *
  * @author rodrigoruiz
  */
+@Entity
 public class User {
+    @Id@GeneratedValue
     private int id;
+    @ManyToMany
     private List<Category> categories;
+    @ManyToMany
     private List<Game> games;
+    private String username;
+    private String password;
     
-    private Database database;
-    
-    public User(Database database) {
-        this.database = database;
-        
+    public User() {
         this.setCategories(new ArrayList<Category>());
         this.setGames(new ArrayList<Game>());
     }
@@ -31,6 +37,22 @@ public class User {
     
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
     
     public List<Category> getCategories() {
@@ -49,7 +71,7 @@ public class User {
         this.games = games;
     }
     
-    private void sortRecommendedGames(List<Game> recommendedGames) {
+   private void sortRecommendedGames(List<Game> recommendedGames) {
         Collections.sort(recommendedGames, new Comparator(){
             @Override
             public int compare(Object o1, Object o2) {
@@ -66,11 +88,11 @@ public class User {
         });
     }
     
-    public List<Game> recommendedGames() {
+    public List<Game> recommendedGames(Database database) {
         List<Game> recommendedGames = new ArrayList<Game>();
         
         if(this.games.isEmpty() && this.categories.isEmpty())
-            recommendedGames = this.database.allGames();
+            recommendedGames = database.allGames();
         
         if(!this.games.isEmpty())
             for(Game game : this.games)
