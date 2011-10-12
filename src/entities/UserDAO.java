@@ -14,6 +14,6 @@ public interface UserDAO {
     public void insert(User u);
     public void merge(User u);
     public User findByUsername(String username);
-    public List<Game> getGames(int id);
-    public List<Category> getCategories(int id);
+    public List<Game> getGames(int userId); //coloquem nomes mais explicativos para variáveis
+    public List<Category> getCategories(int userId);
 }

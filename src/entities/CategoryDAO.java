@@ -14,5 +14,6 @@ public interface CategoryDAO {
     public void insert(Category c);
     public void merge(Category c);
     public List<Category> getAllCategories();
-    public List<Game> getGames(int id);
+    public List<Game> getGames(int categoryId); //coloquem nomes mais explicativos para variáveis
+    public Category getCategoryByName(String name);
 }

@@ -4,7 +4,6 @@
  */
 package entities;
 
-import database.Database;
 import java.util.*;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -88,11 +87,11 @@ public class User {
         });
     }
     
-    public List<Game> recommendedGames(Database database) {
+    public List<Game> getRecommendedGames(GameDAO gameDAO) {
         List<Game> recommendedGames = new ArrayList<Game>();
         
         if(this.games.isEmpty() && this.categories.isEmpty())
-            recommendedGames = database.allGames();
+            recommendedGames = gameDAO.getAllGames();
         
         if(!this.games.isEmpty())
             for(Game game : this.games)
