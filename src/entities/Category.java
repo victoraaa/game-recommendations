@@ -4,22 +4,31 @@
  */
 package entities;
 
+import java.util.ArrayList;
 import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 
 /**
  *
  * @author rodrigoruiz
  */
+@Entity
 public class Category {
+    @Id@GeneratedValue
     private int id;
     private String name;
+    @ManyToMany
     private List<Game> games;
     
     public Category() {
-        
+        games=new ArrayList<Game>();
     }
     
     public Category(int id, String name) {
+        games=new ArrayList<Game>();
         this.id = id;
         this.name = name;
     }
