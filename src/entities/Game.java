@@ -23,8 +23,6 @@ public class Game {
     private String name;
     @ManyToMany
     private List<Category> categories;
-    @ManyToMany
-    private List<Game> similarGames;
     
     public Game() {
         
@@ -34,7 +32,6 @@ public class Game {
         this.id = id;
         this.name = name;
         this.categories = Arrays.asList(categories);
-        this.similarGames = new ArrayList<Game>();
     }
     
     public String getName() {
@@ -61,11 +58,8 @@ public class Game {
         this.id = id;
     }
     
-    public List<Game> getSimilarGames() {
-        return similarGames;
-    }
-    
-    public void setSimilarGames(List<Game> similarGames) {
-        this.similarGames = similarGames;
+    @Override
+    public String toString() {
+        return this.name;
     }
 }
