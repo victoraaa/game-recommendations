@@ -56,6 +56,11 @@ public class CategoryDAOJPA implements CategoryDAO {
         return games;
     }
 
+    @Override
+    public Category getCategoryByName(String name) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
    
 
   

@@ -103,7 +103,7 @@ public class RecommendationLogicTest {
     
     @Test
     public void emptyUser() {
-        assertEquals(gameDAOMock.getAllGames(), user.getRecommendedGames(gameLinkDAOMock, gameDAOMock, 100));
+        assertEquals(gameDAOMock.getAllGames(), user.getRecommendedGames(gameLinkDAOMock, gameDAOMock, 100) );
     }
     
     @Test

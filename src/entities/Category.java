@@ -18,7 +18,7 @@ import javax.persistence.ManyToMany;
 @Entity
 public class Category {
     @Id@GeneratedValue
-    private int id;
+    private int idCategory;
     private String name;
     @ManyToMany
     private List<Game> games;
@@ -29,7 +29,7 @@ public class Category {
     
     public Category(int id, String name) {
         games=new ArrayList<Game>();
-        this.id = id;
+        this.idCategory = id;
         this.name = name;
     }
     
@@ -50,10 +50,10 @@ public class Category {
     }
     
     public int getId() {
-        return id;
+        return idCategory;
     }
     
     public void setId(int id) {
-        this.id = id;
+        this.idCategory = id;
     }
 }

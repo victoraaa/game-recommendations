@@ -9,33 +9,39 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
+import javax.persistence.Table;
 
 /**
  *
  * @author rodrigoruiz
  */
-@Entity
+@Entity @Table(name="\"user\"")
 public class User {
     @Id@GeneratedValue
-    private int id;
+    private int idUser;
+    private String username;
+    private String password;
+    
     @ManyToMany
     private List<Category> categories;
     @ManyToMany
     private List<Game> games;
-    private String username;
-    private String password;
+    
     
     public User() {
-        this.setCategories(new ArrayList<Category>());
-        this.setGames(new ArrayList<Game>());
+        
+        //this.setCategories(new ArrayList<Category>());
+        //this.setGames(new ArrayList<Game>());
+         games=new ArrayList<Game>();
+         categories=new ArrayList<Category>();
     }
     
     public int getId() {
-        return id;
+        return idUser;
     }
     
     public void setId(int id) {
-        this.id = id;
+        this.idUser = id;
     }
 
     public String getPassword() {
@@ -69,6 +75,7 @@ public class User {
     public void setGames(List<Game> games) {
         this.games = games;
     }
+    
     
    private void sortRecommendedGames(List<Game> recommendedGames, final Map<Game, Integer> linkCountForGame) {
        Collections.sort(recommendedGames, new Comparator(){
@@ -147,4 +154,5 @@ public class User {
        
        return recommendedGames.subList(0, numberOfGames);
    }
-}
+
+ }
