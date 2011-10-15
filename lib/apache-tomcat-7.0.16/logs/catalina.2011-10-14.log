@@ -136,3 +136,19 @@ INFO: Reloading Context with name [/Exame] is completed
 INFO: Reloading Context with name [/Exame] has started
 14/10/2011 01:16:04 org.apache.catalina.core.StandardContext reload
 INFO: Reloading Context with name [/Exame] is completed
+14/10/2011 02:24:18 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14/10/2011 02:24:18 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+14/10/2011 02:24:19 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+14/10/2011 02:24:20 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+14/10/2011 02:24:24 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+14/10/2011 02:24:24 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+14/10/2011 02:24:24 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+14/10/2011 02:24:24 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
