@@ -880,3 +880,643 @@ Out 17, 2011 11:14:21 AM org.apache.catalina.startup.HostConfig deployDescriptor
 Informações: Deploying configuration descriptor Exame.xml from C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\conf\Catalina\localhost
 Out 17, 2011 11:14:24 AM org.apache.catalina.util.LifecycleBase start
 Informações: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Exame]] after start() had already been called. The second call will be ignored.
+Out 17, 2011 11:16:22 AM org.apache.catalina.core.StandardServer await
+Informações: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 17, 2011 11:16:22 AM org.apache.coyote.AbstractProtocol pause
+Informações: Pausing ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:16:23 AM org.apache.coyote.AbstractProtocol pause
+Informações: Pausing ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:16:24 AM org.apache.catalina.core.StandardService stopInternal
+Informações: Stopping service Catalina
+Out 17, 2011 11:16:24 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 11:16:24 AM org.apache.coyote.AbstractProtocol stop
+Informações: Stopping ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:16:24 AM org.apache.coyote.AbstractProtocol stop
+Informações: Stopping ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:16:25 AM org.apache.coyote.AbstractProtocol destroy
+Informações: Destroying ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:16:25 AM org.apache.coyote.AbstractProtocol destroy
+Informações: Destroying ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:16:25 AM org.apache.catalina.startup.ExpandWar deleteDir
+Grave: [C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\work\Catalina\localhost\Exame\loader\org\eclipse] could not be completely deleted. The presence of the remaining files may cause problems
+Out 17, 2011 11:16:25 AM org.apache.catalina.startup.ExpandWar deleteDir
+Grave: [C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\work\Catalina\localhost\Exame\loader\org] could not be completely deleted. The presence of the remaining files may cause problems
+Out 17, 2011 11:16:25 AM org.apache.catalina.startup.ExpandWar deleteDir
+Grave: [C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\work\Catalina\localhost\Exame\loader] could not be completely deleted. The presence of the remaining files may cause problems
+Out 17, 2011 11:16:25 AM org.apache.catalina.startup.ExpandWar deleteDir
+Grave: [C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\work\Catalina\localhost\Exame] could not be completely deleted. The presence of the remaining files may cause problems
+Out 17, 2011 11:16:25 AM org.apache.catalina.startup.ExpandWar delete
+Grave: [C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\work\Catalina\localhost\Exame] could not be completely deleted. The presence of the remaining files may cause problems
+Out 17, 2011 3:20:37 PM org.apache.catalina.core.AprLifecycleListener init
+Informações: Loaded APR based Apache Tomcat Native library 1.1.20.
+Out 17, 2011 3:20:37 PM org.apache.catalina.core.AprLifecycleListener init
+Informações: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Out 17, 2011 3:20:40 PM org.apache.coyote.AbstractProtocol init
+Informações: Initializing ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 3:20:40 PM org.apache.coyote.AbstractProtocol init
+Informações: Initializing ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 3:20:40 PM org.apache.catalina.startup.Catalina load
+Informações: Initialization processed in 3971 ms
+Out 17, 2011 3:20:40 PM org.apache.catalina.core.StandardService startInternal
+Informações: Starting service Catalina
+Out 17, 2011 3:20:40 PM org.apache.catalina.core.StandardEngine startInternal
+Informações: Starting Servlet Engine: Apache Tomcat/7.0.16
+Out 17, 2011 3:20:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+Informações: Deploying configuration descriptor Exame.xml from C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\conf\Catalina\localhost
+Out 17, 2011 3:20:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory docs
+Out 17, 2011 3:20:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory examples
+Out 17, 2011 3:20:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory host-manager
+Out 17, 2011 3:20:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory manager
+Out 17, 2011 3:20:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory ROOT
+Out 17, 2011 3:20:47 PM org.apache.coyote.AbstractProtocol start
+Informações: Starting ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 3:20:47 PM org.apache.coyote.AbstractProtocol start
+Informações: Starting ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 3:20:47 PM org.apache.catalina.startup.Catalina start
+Informações: Server startup in 7185 ms
+Out 17, 2011 3:20:48 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 3:20:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 3:20:53 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:00:01 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:00:07 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:00:07 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:00:12 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:00:25 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Undeploying context [/Exame]
+Out 17, 2011 4:13:47 PM org.apache.catalina.startup.HostConfig deployDescriptor
+Informações: Deploying configuration descriptor Exame.xml from C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\conf\Catalina\localhost
+Out 17, 2011 4:13:52 PM org.apache.catalina.util.LifecycleBase start
+Informações: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Exame]] after start() had already been called. The second call will be ignored.
+Out 17, 2011 4:14:40 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:14:40 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 4:14:45 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:14:45 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:14:52 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:15:04 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:15:04 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:15:04 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:15:04 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt_BR.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:15:04 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:20:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+Informações: Deploying configuration descriptor Enquete.xml from C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\conf\Catalina\localhost
+Out 17, 2011 4:20:10 PM org.apache.catalina.util.LifecycleBase start
+Informações: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Enquete]] after start() had already been called. The second call will be ignored.
+Out 17, 2011 4:23:49 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Enquete] has started
+Out 17, 2011 4:23:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Enquete] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 4:23:55 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Enquete] is completed
+Out 17, 2011 4:23:55 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Enquete] has started
+Out 17, 2011 4:24:01 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Enquete] is completed
+Out 17, 2011 4:42:13 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:42:13 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 4:42:18 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:42:19 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:42:23 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:42:33 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:42:33 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt_BR.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt_BR.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:42:34 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:43:54 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:43:54 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 4:44:00 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:44:00 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:44:05 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:44:23 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Undeploying context [/Exame]
+Out 17, 2011 4:44:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+Informações: Deploying configuration descriptor Exame.xml from C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\conf\Catalina\localhost
+Out 17, 2011 4:44:38 PM org.apache.catalina.util.LifecycleBase start
+Informações: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Exame]] after start() had already been called. The second call will be ignored.
+Out 17, 2011 4:44:44 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:44:44 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:44:44 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:44:44 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt_BR.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:44:44 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:49:39 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:49:39 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 4:49:45 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:49:45 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] has started
+Out 17, 2011 4:49:50 PM org.apache.catalina.core.StandardContext reload
+Informações: Reloading Context with name [/Exame] is completed
+Out 17, 2011 4:50:03 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:50:03 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:50:03 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:50:03 PM org.apache.catalina.loader.WebappClassLoader loadClass
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource_pt_BR.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1562)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2565)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:60)
+	at org.eclipse.persistence.internal.localization.EclipseLinkLocalization.buildMessage(EclipseLinkLocalization.java:34)
+	at org.eclipse.persistence.internal.localization.LoggingLocalization.buildMessage(LoggingLocalization.java:25)
+	at org.eclipse.persistence.logging.AbstractSessionLog.formatMessage(AbstractSessionLog.java:850)
+	at org.eclipse.persistence.logging.DefaultSessionLog.log(DefaultSessionLog.java:156)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:3069)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4185)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4157)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4133)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.log(AbstractSession.java:4055)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:759)
+	at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:741)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:284)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:1798)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:214)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.finalize(EntityManagerFactoryImpl.java:264)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:101)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:32)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:178)
+
+Out 17, 2011 4:50:03 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.

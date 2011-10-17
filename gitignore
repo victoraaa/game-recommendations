@@ -1,12 +1,3 @@
-/nbproject/project.properties
-/nbproject/private/private.properties
-nbproject/project.properties
-nbproject/private/private.properties
-build/
-/build
-/nbproject
-nbproject/
-
 # NetBeans specific #
 nbproject/private/
 build/
@@ -15,11 +6,12 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+lib/apache-tomcat-7.0.16/logs
+lib/
 
 # Class Files #
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear

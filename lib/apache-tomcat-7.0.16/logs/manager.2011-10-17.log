@@ -236,3 +236,169 @@ Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
 Informações: Manager: install: Installing context configuration at 'file:/C:/Users/Luisa/AppData/Local/Temp/context4126750657283012286.xml'
 Out 17, 2011 11:14:24 AM org.apache.catalina.core.ApplicationContext log
 Informações: Manager: start: Starting web application '/Exame'
+Out 17, 2011 3:20:47 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Out 17, 2011 3:20:47 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: init: Global resources are available
+Out 17, 2011 3:20:47 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:20:47 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:20:48 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 3:46:41 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:46:41 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:47:25 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:47:25 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:47:25 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:50:07 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:50:07 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 3:52:43 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:00:01 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:00:01 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:00:01 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:00:01 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:00:07 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:00:24 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:00:24 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: undeploy: Undeploying web application at '/Exame'
+Out 17, 2011 4:01:08 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:05:06 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:05:34 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:08:26 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:13:45 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:13:46 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:13:46 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:13:47 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:13:47 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:13:47 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: install: Installing context configuration at 'file:/C:/Users/Luisa/AppData/Local/Temp/context773528744244703861.xml'
+Out 17, 2011 4:13:52 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: start: Starting web application '/Exame'
+Out 17, 2011 4:14:40 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:14:40 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:14:41 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:14:41 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:14:45 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:14:45 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:20:04 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:20:04 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:20:04 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: install: Installing context configuration at 'file:/C:/Users/Luisa/AppData/Local/Temp/context1863319220377255532.xml'
+Out 17, 2011 4:20:10 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: start: Starting web application '/Enquete'
+Out 17, 2011 4:23:49 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:23:49 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:23:49 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:23:49 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Enquete'
+Out 17, 2011 4:23:55 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Enquete'
+Out 17, 2011 4:25:42 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:30:41 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:33:37 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:42:12 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:42:13 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:42:13 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:42:19 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:42:19 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:42:19 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:43:53 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:43:53 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:43:54 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:43:54 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:44:00 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:44:22 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:44:22 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: undeploy: Undeploying web application at '/Exame'
+Out 17, 2011 4:44:33 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:44:33 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:44:34 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: install: Installing context configuration at 'file:/C:/Users/Luisa/AppData/Local/Temp/context4146111552517436776.xml'
+Out 17, 2011 4:44:38 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: start: Starting web application '/Exame'
+Out 17, 2011 4:47:25 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:47:25 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:47:48 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:47:53 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:47:53 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:48:15 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:48:16 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:48:16 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:48:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:48:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:48:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:49:38 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:49:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:49:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
+Out 17, 2011 4:49:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:49:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 4:49:45 PM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: restart: Reloading web application '/Exame'
