@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Already had an account? Please Login:</h1>
+        <h1>Already has an account? Please Login:</h1>
         <form action="Login" method="get">
             Usuário:<input type="text" name="username"></input> <br></br>
             Senha: <input type="text" name="password"></input> <br></br>

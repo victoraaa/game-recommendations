@@ -6,11 +6,11 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+lib/apache-tomcat-7.0.16/logs
 
 # Class Files #
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear

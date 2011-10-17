@@ -34,21 +34,10 @@ public class LoginController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         
-        //Se o usuário já estiver logado, vai direto pra preferences.jsp
-      HttpSession session = request.getSession(false);
-      String destinationURL = "login.jsp";
-      if ( session != null) {
-         // retrieve authentication parameter from the session
-         Boolean isLogged = (Boolean) session.getAttribute("Logged?"); //vê se o usuário está logado
-         // if the user is not authenticated
-         if ( isLogged.booleanValue() ) {
-            // process the unauthenticated request
-            destinationURL = "preferences.jsp";
-            request.getRequestDispatcher(destinationURL).forward(request, response);
-            return;
-         }
-      }
-       //Não estando logado, faz o processo de login
+        
+        HttpSession session = request.getSession(false);
+        String destinationURL = "login.jsp";
+       
         UserDAO userDAO = new UserDAOJPA();
 
         String username = request.getParameter("username");
