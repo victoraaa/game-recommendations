@@ -38,7 +38,7 @@ public class IsLoggedController extends HttpServlet {
          // retrieve authentication parameter from the session
          Boolean isLogged = (Boolean) session.getAttribute("Logged?"); //vê se o usuário está logado
          // if the user is not authenticated
-         if ( !isLogged.booleanValue() ) {
+         if ( isLogged==null || !isLogged.booleanValue() ) {
             // process the unauthenticated request
             destinationURL = "login.jsp";
          }

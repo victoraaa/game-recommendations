@@ -390,3 +390,308 @@ java.net.UnknownHostException: comp13.server
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:03:49 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+15/10/2011 20:03:49 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+15/10/2011 20:39:36 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+15/10/2011 20:39:36 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+15/10/2011 20:39:36 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@54a6af6e')
+15/10/2011 20:39:40 org.apache.catalina.core.ApplicationDispatcher invoke
+GRAVE: Servlet.service() for servlet Controller threw exception
+java.lang.NullPointerException
+	at controller.IsLoggedController.processRequest(IsLoggedController.java:41)
+	at controller.IsLoggedController.doGet(IsLoggedController.java:75)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:593)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:530)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:65)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:419)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:301)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:162)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:140)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:39:40 org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/Exame] threw exception [An exception occurred processing JSP page /index.jsp at line 11
+
+8: <!DOCTYPE html>
+9: <% 
+10:         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/IsLoggedController"); 
+11:         dispatcher.include(request,response); 
+12: %> 
+13: <html>
+14:     <head>
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at controller.IsLoggedController.processRequest(IsLoggedController.java:41)
+	at controller.IsLoggedController.doGet(IsLoggedController.java:75)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:593)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:530)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:65)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:419)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:301)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:162)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:140)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:40:31 org.apache.catalina.core.ApplicationDispatcher invoke
+GRAVE: Servlet.service() for servlet Controller threw exception
+java.lang.NullPointerException
+	at controller.IsLoggedController.processRequest(IsLoggedController.java:41)
+	at controller.IsLoggedController.doGet(IsLoggedController.java:75)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:593)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:530)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:65)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:419)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:301)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:162)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:140)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:40:31 org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/Exame] threw exception [An exception occurred processing JSP page /index.jsp at line 11
+
+8: <!DOCTYPE html>
+9: <% 
+10:         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/IsLoggedController"); 
+11:         dispatcher.include(request,response); 
+12: %> 
+13: <html>
+14:     <head>
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at controller.IsLoggedController.processRequest(IsLoggedController.java:41)
+	at controller.IsLoggedController.doGet(IsLoggedController.java:75)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:593)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:530)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:65)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:419)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:301)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:162)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:140)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:41:49 org.apache.catalina.core.ApplicationDispatcher invoke
+GRAVE: Servlet.service() for servlet Controller threw exception
+java.lang.NullPointerException
+	at controller.IsLoggedController.processRequest(IsLoggedController.java:41)
+	at controller.IsLoggedController.doGet(IsLoggedController.java:75)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:593)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:530)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:65)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:419)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:301)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:162)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:140)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:41:49 org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/Exame] threw exception [java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+	at controller.IsLoggedController.processRequest(IsLoggedController.java:41)
+	at controller.IsLoggedController.doGet(IsLoggedController.java:75)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:593)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:530)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:65)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:419)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:301)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:162)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:140)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:44:50 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+15/10/2011 20:44:50 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+15/10/2011 20:44:59 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+15/10/2011 20:44:59 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+15/10/2011 20:44:59 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5d469658')
+15/10/2011 20:45:09 org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [LoginController] in context with path [/Exame] threw exception
+java.lang.NullPointerException
+	at controller.LoginController.processRequest(LoginController.java:44)
+	at controller.LoginController.doGet(LoginController.java:106)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:301)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:162)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+15/10/2011 20:46:03 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+15/10/2011 20:46:03 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+15/10/2011 20:46:12 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+15/10/2011 20:46:12 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+15/10/2011 20:46:12 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1f3a34af')
+15/10/2011 20:52:19 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+15/10/2011 20:52:19 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+15/10/2011 20:52:28 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+15/10/2011 20:52:28 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+15/10/2011 20:52:28 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@746db33c')
+15/10/2011 21:15:10 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+15/10/2011 21:15:10 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
