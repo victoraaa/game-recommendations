@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Pagina para o usuario colocar suas preferencias</h1>
+        <h1>As preferências foram salvas.</h1>
     </body>
 </html>

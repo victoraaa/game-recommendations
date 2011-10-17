@@ -4,11 +4,14 @@
  */
 package controller;
 
+import entities.Category;
+import entities.CategoryDAO;
+import entities.CategoryDAOJPA;
 import entities.User;
 import entities.UserDAO;
 import entities.UserDAOJPA;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -56,7 +59,10 @@ public class LoginController extends HttpServlet {
                session.setAttribute("Logged?",booleanIsAuthenticated);
 
                session.setAttribute("user",userDB);
-               destinationURL = "preferences.jsp"; //pagina de pegar as coisas preferidas do usuario
+               CategoryDAO c=new CategoryDAOJPA();
+               List<Category> categories =c.getAllCategories(); 
+               request.getSession().setAttribute("categorias", categories);
+               destinationURL = "inputOfCategories.jsp";  //pagina de pegar as coisas preferidas do usuario
             }
         }
  // */    
