@@ -16,4 +16,5 @@ public interface CategoryDAO {
     public List<Category> getAllCategories();
     public List<Game> getGames(int categoryId); //coloquem nomes mais explicativos para variáveis
     public Category getCategoryByName(String name);
+    public Category getCategoryById(int categoryId);
 }

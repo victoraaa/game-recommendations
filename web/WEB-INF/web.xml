@@ -12,6 +12,10 @@
         <servlet-name>RegisterController</servlet-name>
         <servlet-class>controller.RegisterController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SaveCategoriesPreferences</servlet-name>
+        <servlet-class>controller.SaveCategoriesPreferences</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
         <url-pattern>/Login</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>Controller</servlet-name>
         <url-pattern>/IsLoggedController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SaveCategoriesPreferences</servlet-name>
+        <url-pattern>/submitCategories</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

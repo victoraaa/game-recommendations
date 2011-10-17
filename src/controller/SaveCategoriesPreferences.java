@@ -11,6 +11,7 @@ import entities.User;
 import entities.UserDAO;
 import entities.UserDAOJPA;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -20,9 +21,9 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author Victor
+ * @author Luisa
  */
-public class RegisterController extends HttpServlet {
+public class SaveCategoriesPreferences extends HttpServlet {
 
     /** 
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
@@ -33,33 +34,22 @@ public class RegisterController extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        UserDAO userDAO=new UserDAOJPA();
+        CategoryDAO categoryDAO=new CategoryDAOJPA();
         response.setContentType("text/html;charset=UTF-8");
-        UserDAO userDAO = new UserDAOJPA();
-        //Cria o usuário e bota no BD
-        User user = new User();
-        user.setUsername(request.getParameter("username"));
-        user.setPassword(request.getParameter("password"));
-        userDAO.insert(user);
-        //Faz o login do usuário
-
-        user = userDAO.findByUsername(request.getParameter("username"));
-        // create a session
-        HttpSession session = request.getSession(true);
-        // convert the boolean to a Boolean
-        Boolean booleanIsAuthenticated = new Boolean(true);
-        // store the boolean value to the session
-        session.setAttribute("Logged?", booleanIsAuthenticated);
-        session.setAttribute("user", user);
-
-        CategoryDAO c = new CategoryDAOJPA();
-        List<Category> categories = c.getAllCategories();
-        request.getSession().setAttribute("categorias", categories);
-        String destinationURL = "inputOfCategories.jsp"; //pagina que vai pra o usuario botar as preferencias  dele
-
-
+        HttpSession session = request.getSession();
+        User user=(User) session.getAttribute("user");
+        String[] categoriesId=request.getParameterValues("categories");
+        List <Category> categories=new ArrayList<Category>();
+        for(int i=0; i<categoriesId.length; i++){
+            categories.add(categoryDAO.getCategoryById(Integer.parseInt(categoriesId[i])));
+        }
+        user.setCategories(categories);
+        userDAO.merge(user);
+        String destinationURL ="preferences.jsp";
         try {
             request.getRequestDispatcher(destinationURL).forward(request, response);
-        } finally {
+        } finally {            
         }
     }
 

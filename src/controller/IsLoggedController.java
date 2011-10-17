@@ -4,8 +4,11 @@
  */
 package controller;
 
+import entities.Category;
+import entities.CategoryDAO;
+import entities.CategoryDAOJPA;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -38,12 +41,15 @@ public class IsLoggedController extends HttpServlet {
          // retrieve authentication parameter from the session
          Boolean isLogged = (Boolean) session.getAttribute("Logged?"); //vê se o usuário está logado
          // if the user is not authenticated
-         if ( isLogged==null || !isLogged.booleanValue() ) {
+         if (isLogged==null || !isLogged.booleanValue() ) {
             // process the unauthenticated request
             destinationURL = "login.jsp";
          }
          else{
-             destinationURL = "preferences.jsp"; //Fazer ele verificar se o usuário já tem coisas preferidas ou não e decidir pra qual página mandar
+             CategoryDAO c=new CategoryDAOJPA();
+             List<Category> categories =c.getAllCategories(); 
+             request.getSession().setAttribute("categorias", categories);
+             destinationURL = "inputOfCategories.jsp"; //Fazer ele verificar se o usuário já tem coisas preferidas ou não e decidir pra qual página mandar
          }
       }
       else // the session does not exist

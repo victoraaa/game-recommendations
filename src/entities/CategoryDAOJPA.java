@@ -58,7 +58,28 @@ public class CategoryDAOJPA implements CategoryDAO {
 
     @Override
     public Category getCategoryByName(String name) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        Category category=null;
+        EntityManager em = JPAUtil.getEntityManager();
+        Query query = em.createQuery("SELECT c FROM Category c WHERE c.name=:name"); 
+        query.setParameter("name", name);
+        try {
+            category= (Category) query.getSingleResult();
+        } catch (Exception e) {
+        }
+        return category;
+    }
+
+    @Override
+    public Category getCategoryById(int categoryId) {
+        Category category=null;
+        EntityManager em = JPAUtil.getEntityManager();
+        Query query = em.createQuery("SELECT c FROM Category c WHERE c.idCategory=:id"); 
+        query.setParameter("id", categoryId);
+        try {
+            category= (Category) query.getSingleResult();
+        } catch (Exception e) {
+        }
+        return category;
     }
 
    

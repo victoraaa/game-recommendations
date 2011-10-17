@@ -738,3 +738,139 @@ java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
 	at java.lang.Thread.run(Thread.java:722)
 
+Out 17, 2011 11:03:40 AM org.apache.catalina.core.StandardWrapperValve invoke
+Grave: Servlet.service() for servlet [LoginController] in context with path [/Exame] threw exception
+javax.persistence.PersistenceException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: A tentativa de conexão falhou.
+Error Code: 0
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:422)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.getServerSession(EntityManagerFactoryImpl.java:185)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:242)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:230)
+	at util.JPAUtil.getEntityManager(JPAUtil.java:20)
+	at entities.UserDAOJPA.findByUsername(UserDAOJPA.java:39)
+	at controller.LoginController.processRequest(LoginController.java:49)
+	at controller.LoginController.doGet(LoginController.java:101)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:286)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:272)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1730)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: A tentativa de conexão falhou.
+Error Code: 0
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:324)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:319)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:138)
+	at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:162)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.loginAndDetectDatasource(DatabaseSessionImpl.java:592)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:233)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:394)
+	... 25 more
+Caused by: org.postgresql.util.PSQLException: A tentativa de conexão falhou.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:150)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:30)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:190)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:98)
+	... 29 more
+Caused by: java.net.UnknownHostException: comp13.server
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:176)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 40 more
+
+Out 17, 2011 11:05:33 AM org.apache.catalina.core.ApplicationContext log
+Informações: SessionListener: contextDestroyed()
+Out 17, 2011 11:05:33 AM org.apache.catalina.core.ApplicationContext log
+Informações: ContextListener: contextDestroyed()
+Out 17, 2011 11:05:44 AM org.apache.catalina.core.ApplicationContext log
+Informações: ContextListener: contextInitialized()
+Out 17, 2011 11:05:44 AM org.apache.catalina.core.ApplicationContext log
+Informações: SessionListener: contextInitialized()
+Out 17, 2011 11:05:44 AM org.apache.catalina.core.ApplicationContext log
+Informações: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1869a03')
+Out 17, 2011 11:05:58 AM org.apache.catalina.core.StandardWrapperValve invoke
+Grave: Servlet.service() for servlet [LoginController] in context with path [/Exame] threw exception
+javax.persistence.PersistenceException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "161.24.2.22", user "comp13", database "findyourgameDB", SSL off
+Error Code: 0
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:422)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.getServerSession(EntityManagerFactoryImpl.java:185)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:242)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:230)
+	at util.JPAUtil.getEntityManager(JPAUtil.java:20)
+	at entities.UserDAOJPA.findByUsername(UserDAOJPA.java:39)
+	at controller.LoginController.processRequest(LoginController.java:49)
+	at controller.LoginController.doGet(LoginController.java:101)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:563)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:403)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:286)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:272)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1730)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "161.24.2.22", user "comp13", database "findyourgameDB", SSL off
+Error Code: 0
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:324)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:319)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:138)
+	at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:162)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.loginAndDetectDatasource(DatabaseSessionImpl.java:592)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:233)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:394)
+	... 25 more
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "161.24.2.22", user "comp13", database "findyourgameDB", SSL off
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:291)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:30)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:190)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:98)
+	... 29 more
+

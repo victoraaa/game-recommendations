@@ -15,5 +15,12 @@
     </head>
     <body>
         <h1>Selecione as categorias de jogos que você gosta:</h1>
+        <form name="input" action="submitCategories" method="post">
+            <% for (int i = 0; i < categories.size(); i++) {%>
+            <input type="checkbox" name="categories" value=<%=categories.get(i).getId()%>> <%=categories.get(i).getName()%><br>
+            <%}%> 
+            <br>
+            <input type="submit" value="Submit" />
+        </form>
     </body>
 </html>
