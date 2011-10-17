@@ -589,3 +589,8 @@
 127.0.0.1 - - [17/Oct/2011:16:49:51 -0200] "GET /Exame/ HTTP/1.1" 200 614
 127.0.0.1 - - [17/Oct/2011:16:50:05 -0200] "GET /Exame/Login?username=lu&password=luisa HTTP/1.1" 200 739
 127.0.0.1 - - [17/Oct/2011:16:50:07 -0200] "POST /Exame/submitCategories HTTP/1.1" 200 320
+127.0.0.1 - - [17/Oct/2011:16:58:29 -0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [17/Oct/2011:16:58:29 -0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [17/Oct/2011:16:58:29 -0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - victor [17/Oct/2011:16:58:30 -0200] "GET /manager/text/list HTTP/1.1" 200 329
+127.0.0.1 - - [17/Oct/2011:16:58:30 -0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -

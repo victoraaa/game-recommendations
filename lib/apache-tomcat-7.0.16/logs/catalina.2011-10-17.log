@@ -1520,3 +1520,53 @@ java.lang.IllegalStateException
 
 Out 17, 2011 4:50:03 PM org.apache.catalina.loader.WebappClassLoader findResourceInternal
 Informações: Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Out 17, 2011 4:58:43 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context []
+Out 17, 2011 4:58:43 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:58:43 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/manager]
+Out 17, 2011 4:58:44 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:58:44 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/docs]
+Out 17, 2011 4:58:44 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:58:45 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Undeploying context [/Exame]
+Out 17, 2011 4:58:45 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 4:58:45 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/Enquete]
+Out 17, 2011 4:58:46 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:58:50 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/examples]
+Out 17, 2011 4:58:51 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:58:52 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Undeploying context [/host-manager]
+Out 17, 2011 4:59:03 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Undeploying context []
+Out 17, 2011 4:59:04 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Undeploying context [/manager]
+Out 17, 2011 4:59:04 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/docs]
+Out 17, 2011 4:59:05 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:59:05 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/Enquete]
+Out 17, 2011 4:59:05 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:59:11 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/examples]
+Out 17, 2011 4:59:11 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:59:22 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/docs]
+Out 17, 2011 4:59:22 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
+Out 17, 2011 4:59:22 PM org.apache.catalina.startup.HostConfig checkResources
+Informações: Reloading context [/examples]
+Out 17, 2011 4:59:23 PM org.apache.catalina.startup.ContextConfig webConfig
+Informações: No global web.xml found
