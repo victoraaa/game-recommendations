@@ -214,3 +214,25 @@ Out 17, 2011 11:08:53 AM org.apache.catalina.core.ApplicationContext log
 Informações: Manager: stop: Stopping web application '/Exame'
 Out 17, 2011 11:08:53 AM org.apache.catalina.core.ApplicationContext log
 Informações: Manager: start: Starting web application '/Exame'
+Out 17, 2011 11:13:48 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 11:13:48 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: stop: Stopping web application '/Exame'
+Out 17, 2011 11:13:48 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: start: Starting web application '/Exame'
+Out 17, 2011 11:13:52 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 11:13:53 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: undeploy: Undeploying web application at '/Exame'
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: init: Global resources are available
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: list: Listing contexts for virtual host 'localhost'
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: install: Installing context configuration at 'file:/C:/Users/Luisa/AppData/Local/Temp/context4126750657283012286.xml'
+Out 17, 2011 11:14:24 AM org.apache.catalina.core.ApplicationContext log
+Informações: Manager: start: Starting web application '/Exame'

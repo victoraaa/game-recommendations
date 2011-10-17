@@ -6,7 +6,7 @@
     <class>entities.Game</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://comp13.server/findyourgameDB"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://comp13.redecasd.ita.br/findyourgameDB"/>
       <property name="javax.persistence.jdbc.password" value="xupafolgado"/>
       <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
       <property name="javax.persistence.jdbc.user" value="comp13"/>

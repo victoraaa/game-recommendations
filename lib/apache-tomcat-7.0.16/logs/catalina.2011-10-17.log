@@ -828,3 +828,55 @@ Out 17, 2011 11:05:48 AM org.apache.catalina.util.LifecycleBase start
 Informações: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Exame]] after start() had already been called. The second call will be ignored.
 Out 17, 2011 11:08:53 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
 Grave: The web application [/Exame] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Out 17, 2011 11:13:54 AM org.apache.catalina.startup.HostConfig checkResources
+Informações: Undeploying context [/Exame]
+Out 17, 2011 11:14:01 AM org.apache.catalina.core.StandardServer await
+Informações: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Out 17, 2011 11:14:01 AM org.apache.coyote.AbstractProtocol pause
+Informações: Pausing ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:14:02 AM org.apache.coyote.AbstractProtocol pause
+Informações: Pausing ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:14:03 AM org.apache.catalina.core.StandardService stopInternal
+Informações: Stopping service Catalina
+Out 17, 2011 11:14:03 AM org.apache.coyote.AbstractProtocol stop
+Informações: Stopping ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:14:03 AM org.apache.coyote.AbstractProtocol stop
+Informações: Stopping ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:14:03 AM org.apache.coyote.AbstractProtocol destroy
+Informações: Destroying ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:14:03 AM org.apache.coyote.AbstractProtocol destroy
+Informações: Destroying ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:14:18 AM org.apache.catalina.core.AprLifecycleListener init
+Informações: Loaded APR based Apache Tomcat Native library 1.1.20.
+Out 17, 2011 11:14:18 AM org.apache.catalina.core.AprLifecycleListener init
+Informações: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Out 17, 2011 11:14:20 AM org.apache.coyote.AbstractProtocol init
+Informações: Initializing ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:14:20 AM org.apache.coyote.AbstractProtocol init
+Informações: Initializing ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:14:20 AM org.apache.catalina.startup.Catalina load
+Informações: Initialization processed in 2534 ms
+Out 17, 2011 11:14:20 AM org.apache.catalina.core.StandardService startInternal
+Informações: Starting service Catalina
+Out 17, 2011 11:14:20 AM org.apache.catalina.core.StandardEngine startInternal
+Informações: Starting Servlet Engine: Apache Tomcat/7.0.16
+Out 17, 2011 11:14:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory docs
+Out 17, 2011 11:14:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory examples
+Out 17, 2011 11:14:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory host-manager
+Out 17, 2011 11:14:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory manager
+Out 17, 2011 11:14:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory ROOT
+Out 17, 2011 11:14:21 AM org.apache.coyote.AbstractProtocol start
+Informações: Starting ProtocolHandler ["http-apr-8080"]
+Out 17, 2011 11:14:21 AM org.apache.coyote.AbstractProtocol start
+Informações: Starting ProtocolHandler ["ajp-apr-8009"]
+Out 17, 2011 11:14:21 AM org.apache.catalina.startup.Catalina start
+Informações: Server startup in 1113 ms
+Out 17, 2011 11:14:21 AM org.apache.catalina.startup.HostConfig deployDescriptor
+Informações: Deploying configuration descriptor Exame.xml from C:\Users\Luisa\NetBeans\ExameLu\Exame\lib\apache-tomcat-7.0.16\conf\Catalina\localhost
+Out 17, 2011 11:14:24 AM org.apache.catalina.util.LifecycleBase start
+Informações: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Exame]] after start() had already been called. The second call will be ignored.

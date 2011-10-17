@@ -874,3 +874,13 @@ Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for ho
 	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:98)
 	... 29 more
 
+Out 17, 2011 11:14:03 AM org.apache.catalina.core.ApplicationContext log
+Informações: SessionListener: contextDestroyed()
+Out 17, 2011 11:14:03 AM org.apache.catalina.core.ApplicationContext log
+Informações: ContextListener: contextDestroyed()
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: ContextListener: contextInitialized()
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: SessionListener: contextInitialized()
+Out 17, 2011 11:14:21 AM org.apache.catalina.core.ApplicationContext log
+Informações: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7a4204')
