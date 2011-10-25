@@ -4,12 +4,21 @@
  */
 package entities;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
 /**
  *
  * @author rodrigoruiz
  */
+@Entity
 public class GameLink {
+    @Id
+    @OneToOne
     private Game game1;
+    @Id
+    @OneToOne
     private Game game2;
     private int linkCount; // number of users that have both games
     

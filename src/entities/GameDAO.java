@@ -13,4 +13,5 @@ import java.util.List;
 public interface GameDAO {
     public Game getGameByName(String name);
     public List<Game> getAllGames();
+    
 }

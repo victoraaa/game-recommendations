@@ -7,6 +7,7 @@ package controller;
 import entities.Category;
 import entities.CategoryDAO;
 import entities.CategoryDAOJPA;
+import entities.Game;
 import entities.User;
 import entities.UserDAO;
 import entities.UserDAOJPA;
@@ -46,7 +47,17 @@ public class SaveCategoriesPreferences extends HttpServlet {
         }
         user.setCategories(categories);
         userDAO.merge(user);
-        String destinationURL ="preferences.jsp";
+        //pegar o list de games pelo método de recomendação
+        //este é apenas um teste
+        List<Game> games=new ArrayList<Game>();
+        Game game1=new Game();
+        game1.setName("game1");
+        Game game2=new Game();
+        game2.setName("game2");
+        games.add(game1);
+        games.add(game2);
+        request.getSession().setAttribute("games", games);
+        String destinationURL ="outputOfRecommendations.jsp";
         try {
             request.getRequestDispatcher(destinationURL).forward(request, response);
         } finally {            
@@ -89,3 +100,4 @@ public class SaveCategoriesPreferences extends HttpServlet {
         return "Short description";
     }// </editor-fold>
 }
+

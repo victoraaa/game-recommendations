@@ -12,4 +12,6 @@ import java.util.List;
  */
 public interface GameLinkDAO {
     public List<GameLink> getGameLinksWithGame(Game game);
+    public void insertGameLink(GameLink gl);
+    public void addLink ();
 }

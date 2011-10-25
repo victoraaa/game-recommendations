@@ -4,6 +4,8 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>entities.Category</class>
     <class>entities.Game</class>
+    <class>entities.GameLink</class>
+    <class>entities.User</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://comp13.redecasd.ita.br/findyourgameDB"/>
